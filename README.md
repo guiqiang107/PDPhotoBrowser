@@ -15,3 +15,5 @@
  * animateView 获取缩放返回的imageView的回调block
  */
 + (PDPhotoBrowser *)photoWithUrls:(NSArray *)urls currentIndex:(NSInteger)currentIndex animateView:(PDAnimateView)animateView;
+
+![screenShot](https://github.com/guiqiang107/PDPhotoBrowser/raw/master/PDPhotoBrowserGif.gif)
