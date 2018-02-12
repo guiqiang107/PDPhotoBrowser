@@ -46,6 +46,20 @@
     return browser;
 }
 
++ (PDPhotoBrowser *)photoWithImages:(NSArray *)images{
+    PDPhotoBrowser *browser = [[PDPhotoBrowser alloc] init];
+    browser.images = images;
+    [browser show];
+    return browser;
+}
+
++ (PDPhotoBrowser *)photoWithUrls:(NSArray *)urls{
+    PDPhotoBrowser *browser = [[PDPhotoBrowser alloc] init];
+    browser.urls = urls;
+    [browser show];
+    return browser;
+}
+
 //显示图片浏览器
 - (void)show
 {

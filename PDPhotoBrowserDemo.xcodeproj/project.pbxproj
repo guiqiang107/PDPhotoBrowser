@@ -209,7 +209,7 @@
 				TargetAttributes = {
 					ACC298F81EE7C6F4007DB946 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = VEMSS45948;
+						DevelopmentTeam = XUMV3YM53U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -435,8 +435,9 @@
 			baseConfigurationReference = 7E2E03C8567B269E7F41D686 /* Pods-PDPhotoBrowserDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VEMSS45948;
+				DEVELOPMENT_TEAM = XUMV3YM53U;
 				INFOPLIST_FILE = PDPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Xpand.PDPhotoBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,8 +449,9 @@
 			baseConfigurationReference = 6595A0BC2416F77BC1177E6E /* Pods-PDPhotoBrowserDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VEMSS45948;
+				DEVELOPMENT_TEAM = XUMV3YM53U;
 				INFOPLIST_FILE = PDPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Xpand.PDPhotoBrowserDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
