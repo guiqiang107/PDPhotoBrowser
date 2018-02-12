@@ -90,10 +90,10 @@
         UITapGestureRecognizer *singleTapScrollView = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapScrollView:)];
         [_scrollView addGestureRecognizer:singleTapScrollView];
         
-        //上滑和下滑手势，退出图片浏览器
-        UISwipeGestureRecognizer *swipeGes = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(singleTapScrollView:)];
-        [swipeGes setDirection:(UISwipeGestureRecognizerDirectionUp | UISwipeGestureRecognizerDirectionDown)];
-        [_scrollView addGestureRecognizer:swipeGes];
+//        //上滑和下滑手势，退出图片浏览器
+//        UISwipeGestureRecognizer *swipeGes = [[UISwipeGestureRecognizer alloc]initWithTarget:self action:@selector(singleTapScrollView:)];
+//        [swipeGes setDirection:(UISwipeGestureRecognizerDirectionUp | UISwipeGestureRecognizerDirectionDown)];
+//        [_scrollView addGestureRecognizer:swipeGes];
         
         //双击手势，放大缩放图片
         UITapGestureRecognizer *doubleTapScrollView = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(doubleTapScrollView:)];
